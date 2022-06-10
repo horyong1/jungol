@@ -17,9 +17,9 @@ public class Test562 {
 			arr[i] = num;
 
 			if (i % 2 == 0) {
-				odd += arr[i];
-			} else {
 				even += arr[i];
+			} else {
+				odd += arr[i];
 				count++;
 			}
 		}
